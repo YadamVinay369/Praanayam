@@ -78,6 +78,24 @@ h1{
     transform-origin: bottom center;
 }
 
+
+@media (max-width: 483px) {
+    .container{
+        height: 200px;
+        width: 200px;
+    }
+
+    .gradient-circle{
+        height: 220px;
+        width: 220px;
+    }
+
+    .pointer-container{
+        left: 90px;
+        height: 140px;
+    }
+}
+
 @keyframes rotate{
     from{
         transform: rotate(0deg);
@@ -112,4 +130,3 @@ h1{
         transform: scale(1);
     }
 }
-
